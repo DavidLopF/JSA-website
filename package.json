@@ -16,6 +16,7 @@
         "postcss": "^8.1.14"
     },
     "dependencies": {
+        "animate.css": "^4.1.1",
         "bulma": "^0.9.3"
     }
 }

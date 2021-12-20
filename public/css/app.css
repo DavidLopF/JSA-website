@@ -1,6 +1,4 @@
-#test {
-    background-color: chartreuse;
-}
+@import '~animate.css';
 
 .centarimagen {
     display: block;
@@ -8,31 +6,141 @@
     margin-right: auto;
 }
 
+.header {
+    background: white;
+}
+
 .centrardiv {
     width: fit-content;
     margin: 0 auto;
 }
 
-.image-home{
-    margin-top: -230px;
-    opacity: 0.6    ;
-    filter:  alpha(opacity=60);
+.carrouserl-home{
+    margin-top: -575px;
 }
 
-.capa1{
-    position:relative;
-    z-index:1;
+.image-home {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
 }
+
+justify-Center {
+    display: flex;
+    justify-content: center;
+}
+
+.capa1 {
+    position: relative;
+    z-index: 1;
+}
+
 .capa2 {
     position: absolute;
     z-index: 0;
 }
 
-.nav ul li a{
+.nav ul li a {
     font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-size: 120%;
     color: black;
 }
 
-.nav ul li a:hover{
+.nav ul li a:hover {
     color: white;
+}
+
+.slogan {
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    font-size: 150%;
+    color: black;
+}
+
+.naranja{
+    background: #ff914d;
+}
+
+.contacto{
+    color: white;
+}
+
+.contacto:hover{
+    color: black;
+}
+
+#home-c-1{
+    margin-top: -15px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .carrouserl-home{
+        margin-top: -50%;
+    }
+
+    .logo{
+        height: 40%;
+        width: 40%;
+    }
+
+    .divnav lu{
+        height: 30%;
+        width: 30%;
+    }
+    .divnav lu li{
+        height: 30%;
+        width: 30%;
+    }
+
+
+    .divnav lu li a{
+        height: 30%;
+        width: 30%;
+    }
+
+    .slogan{
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+
+    .carrouserl-home{
+        margin-top: -60%;
+    }
+
+    .divnav lu{
+        height: 20%;
+        width: 20%;
+    }
+
+    .a-nav{
+        font-size: 20%;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+
+    .carrouserl-home{
+        margin-top: -70%;
+    }
+
+    .divnav lu{
+        height: 10%;
+        width: 10%;
+    }
+
+    .a-nav{
+        font-size: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 570px) {
+
+    .carrouserl-home{
+        margin-top: -80%;
+    }
 }
