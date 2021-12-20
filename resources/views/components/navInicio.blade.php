@@ -1,7 +1,7 @@
 <div class="is-half capa1">
-    <img src="{{asset("images/logo.png")}}" class="centarimagen">
+    <img src="{{asset("images/logo.png")}}" class="centarimagen centrardiv animate__animated animate__fadeInRight">
 
-    <div class="centrardiv">
+    <div class="centrardiv animate__animated animate__fadeInLeft">
         <nav class="breadcrumb has-bullet-separator nav" aria-label="breadcrumbs">
             <ul>
                 <li><a href="#">Inicio</a></li>
