@@ -5,21 +5,21 @@
         <div id="carouselExampleControls" class="carousel slide capa2 carrouserl-home" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <figure class="image is-16by9">
+                    <figure class="image is-5by3">
                         <img class="image-home"
                              src="{{asset('images/home/banner.jpg')}}">
                     </figure>
 
                 </div>
                 <div class="carousel-item">
-                    <figure class="image is-16by9">
+                    <figure class="image is-5by3">
                         <img class="image-home"
                              src="{{asset('images/home/banner-2.jpg')}}">
                     </figure>
 
                 </div>
                 <div class="carousel-item">
-                    <figure class="image is-16by9">
+                    <figure class="image is-5by3">
                         <img class="image-home"
                              src="{{asset('images/home/banner-3.jpg')}}">
                     </figure>
